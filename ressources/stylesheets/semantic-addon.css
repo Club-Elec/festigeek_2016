@@ -1,0 +1,66 @@
+.hidden.menu {
+    display: none;
+}
+
+.masthead.segment {
+    position: relative;
+
+    min-height: 100%;
+    padding: 1em 0em;
+}
+
+.masthead.segment.interstellar {
+    background-image: url( ../images/interstellar.png ) !important;
+    background-size: 100% 100%;
+}
+
+.masthead .logo.item img {
+    margin-right: 1em;
+}
+
+.masthead .ui.menu .ui.button {
+    margin-left: 0.5em;
+}
+
+.masthead h1.ui.header {
+    margin-top: 1.5em;
+    margin-bottom: 0em;
+    font-size: 9em;
+    font-weight: normal;
+
+    text-shadow: 0px 0px 4px rgba( 48, 48, 48, 0.6 );
+}
+
+.masthead h2 {
+    font-size: 3em;
+    font-weight: normal;
+
+    text-shadow: 0px 0px 4px rgba( 48, 48, 48, 0.6 );
+}
+
+.masthead .bottom {
+    position: absolute;
+
+    bottom: 1em;
+}
+
+.masthead .bottom a.ui.button {
+    font-size: 1.2em;
+    min-width: 200px;
+}
+
+@media only screen and (max-width: 700px) {
+    .masthead.segment {
+        min-height: 350px;
+    }
+
+    .masthead h1.ui.header {
+        font-size: 2em;
+        margin-top: 1.5em;
+    }
+
+    .masthead h2 {
+        margin-top: 0.5em;
+        font-size: 1.5em;
+    }
+}
