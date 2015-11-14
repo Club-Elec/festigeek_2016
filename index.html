@@ -3,6 +3,7 @@
     <head>
         <!-- meta data -->
         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width; initial-scale=1.0;" />
         <meta http-equiv="content-type" content="text/html" charset="utf-8" />
         <meta http-equiv="default-style" content="text/css" charset="utf-8" />
 
@@ -13,11 +14,22 @@
         <title>FestiGeek édition 2016</title>
     </head>
 
-    <body>
+    <body data-ng-app="app" >
+        <!-- view for angular -->
+        <ng-view></ng-view>
 
-        <!-- load angular, jquery and semantic-ui javascripts -->
-        <script type="application/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js" ></script>
-        <script type="application/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <!-- include javascripts jquery, semantic-ui -->
+        <script type="application/javascript" src="ressources/javascripts/jquery.min.js" ></script>
         <script type="application/javascript" src="ressources/semantic-ui/semantic.min.js" ></script>
+
+        <!-- include javascripts angular -->
+        <script type="application/javascript" src="ressources/javascripts/angular.min.js" ></script>
+        <script type="application/javascript" src="ressources/javascripts/angular-animate.min.js" ></script>
+        <script type="application/javascript" src="ressources/javascripts/angular-route.min.js" ></script>
+        <script type="application/javascript" src="ressources/javascripts/angular-sanitize.min.js" ></script>
+
+        <!-- include controllers -->
+        <script type="application/javascript" src="controllers/main.js" ></script>
+        <script type="application/javascript" src="controllers/home.js" ></script>
     </body>
 </html>
