@@ -1,6 +1,6 @@
 var associations = [{
     name: "Club Elec",
-    image: "no-image.png",
+    image: "clubelec.jpg",
     meta: "isenclub.elec@gmail.com",
     description: "Le Club Elec ISEN-Brest est un groupe de personnes voulant démocratiser et maîtriser différentes technologies (Web, Arduino, électronique, programmation, etc.). Nous organisons aussi quelques manifestations à thème au cours de l'année comme des cours sur différentes technologies ou des LAN party. Nous réalisons également des projets comme le montage d'une imprimante 3D, une borne d'arcade, un bras robotisé ou encore la création d'un forum ou d'un site."
 }, {
