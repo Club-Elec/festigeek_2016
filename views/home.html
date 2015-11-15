@@ -5,28 +5,89 @@
     </div>
 
     <div class="ui container fluid bottom">
-        <a href="#/associations" class="ui button">
+        <a data-ng-click="goToId( 'festigeek' )" class="ui button">
+            <i class="help icon"></i>
+            FestiGeek
+        </a>
+
+        <a data-ng-click="goToId( 'associations' )" class="ui button">
             <i class="users icon"></i>
             Associations
         </a>
 
-        <a href="#/programme" class="ui button">
+        <a data-ng-click="goToId( 'programme' )" class="ui button">
             <i class="calendar icon"></i>
             Programme
         </a>
-        <a href="#/acces" class="ui button">
+
+        <a data-ng-click="goToId( 'acces' )" class="ui button">
             <i class="map icon"></i>
             Accès
         </a>
 
-        <a href="#/ateliers" class="ui button">
+        <a data-ng-click="goToId( 'ateliers' )" class="ui button">
             <i class="smile icon"></i>
             Ateliers
         </a>
 
-        <a href="#/contact" class="ui button">
+        <a data-ng-click="goToId( 'contact' )" class="ui button">
             <i class="user icon"></i>
             Contact
         </a>
+    </div>
+</div>
+
+<div id="festigeek" class="ui vertical stripe segment">
+    <div class="ui stackable grid container">
+        <div class="row">
+            <div class="eight wide column">
+                <h3 class="ui header">Présentation</h3>
+                <p class="ui justified">Bienvenu sur le site officiel du FESTIGEEK, un festival se déroulant à Brest, fin février. Mais tout ceci n'est pas très précis : </p>
+                <p class="ui justified">Le FESTIGEEK c'est LE festival de la culture Geek à Brest. Il permet de découvrir les nombreuses facettes de cette culture en proposant des ateliers (jeux de plateau, vidéo, de rôle, activités multimédia...), des expositions, des présentations et même une conférence, tout ceci en mettant à contribution les différents acteurs associatifs de ce milieu.</p>
+                <p class="ui justified">Vous pouvez retrouver les dates des différents évènements du festival <a data-ng-click="goToId( 'programme' )" >ici</a>.</p>
+                <p class="ui justified">Nous vous souhaitons une agréable visite.</p>
+            </div>
+
+            <div class="eight wide column">
+                <h3 class="ui header">Le thème interstellaire</h3>
+                <p class="ui justified">C'est bien beau de parler du thème interstellaire, mais à quoi cela correspond ? Voici une petite liste :</p>
+
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="associations">
+    <div class="ui header container">
+        <h3 class="ui header">Les associations</h3>
+    </div>
+
+    <div class="ui grid vertically divided container">
+        <div class="row">
+            <div class="four wide column" data-ng-repeat="association in associations">
+                <div class="ui card">
+                    <div class="image">
+                        <img class="ui wireframe image" src="{{ 'ressources/images/' + association.image }}" alt="{{ association.name }}" />
+                    </div>
+
+                    <div class="content">
+                        <h3 class="header" >{{ association.name }}</h3>
+                        <div class="meta">
+                            <span>{{ association.meta }}</span>
+                        </div>
+
+                        <div class="description ui justified">{{ association.description }}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
