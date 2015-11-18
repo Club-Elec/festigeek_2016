@@ -1,13 +1,14 @@
+// create application
 var app = angular.module( "app", ["ngRoute", "ngAnimate", "ngSanitize"]);
 
-app.config(["$routeProvider", function( $routeProvider ) {
-    // create routing
-    var routes = [{
-        route: "/home",
-        path:  "views/home.html",
-        controller: "home"
-    }];
+// create routing
+var routes = [{
+    route: "/home",
+    path:  "views/home.html",
+    controller: "home"
+}];
 
+app.config(["$routeProvider", function( $routeProvider ) {
     // bind each routes
     for( var i in routes ) {
         $routeProvider.when( routes[i].route, {
