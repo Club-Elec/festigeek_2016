@@ -6,6 +6,14 @@ var routes = [{
     route: "/home",
     path:  "views/home.html",
     controller: "home"
+}, {
+    route: "/",
+    path: "views/home.html",
+    controller: "home"
+},{
+    route: "/404",
+    path: "views/404.html",
+    controller: "home"
 }];
 
 app.config(["$routeProvider", function( $routeProvider ) {
@@ -19,6 +27,6 @@ app.config(["$routeProvider", function( $routeProvider ) {
 
     // default routing
     $routeProvider.otherwise({
-        redirectTo: "/home"
+        redirectTo: "/404"
     });
 }]);
