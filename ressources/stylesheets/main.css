@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'swfont';
+    src: url('../fonts/STJEDISE.TTF');
+}
+
+
+.swfont{
+    font-family: swfont !important;
+}
+
+h1{
+    font-family: swfont;
+}
