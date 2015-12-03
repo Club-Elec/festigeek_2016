@@ -14,6 +14,10 @@ var routes = [{
     route: "/404",
     path: "views/404.html",
     controller: "home"
+},{
+    route: "/acces",
+    path: "views/acces.html",
+    controller: ""
 }];
 
 app.config(["$routeProvider", function( $routeProvider ) {

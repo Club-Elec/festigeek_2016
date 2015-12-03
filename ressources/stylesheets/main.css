@@ -9,5 +9,9 @@
 }
 
 h1{
-    font-family: swfont;
+    font-family: swfont !important;
+}
+
+h3{
+    font-family: swfont !important;
 }
