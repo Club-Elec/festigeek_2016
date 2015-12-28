@@ -15,3 +15,48 @@ h1{
 h3{
     font-family: swfont !important;
 }
+
+.sf-button{
+    background-color: darkslateblue;
+    background:
+        linear-gradient(135deg, transparent 10px, darkslateblue 0) top left,
+        linear-gradient(315deg, transparent 10px, darkslateblue 0) bottom right;
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    opacity: 50%;
+    //border: 2px solid black;
+    padding: 1em 3em;
+    margin: 0 1em;
+    font-family: swfont;
+    font-size: 1,8em;
+
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+}
+    .sf-button:before{
+        content: none;
+        display: block;
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+
+        border-bottom: 1px solid black;
+
+        background-color: black;
+        height: 300px;
+        width: 300px;
+    }
+    .sf-button:hover{
+        background:
+            linear-gradient(225deg, transparent 10px, darkslateblue 0) top right,
+            linear-gradient(45deg, transparent 10px, darkslateblue 0) bottom left;
+        background-repeat: no-repeat;
+        background-size: 100% 50%;
+        transition-property: width;
+        transition-duration: 2s;
+        transition-timing-function: linear;
+        transition-delay: 1s;
+    }
