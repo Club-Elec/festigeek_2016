@@ -39,7 +39,7 @@ var associations = [{
     meta: "darkangels.asso.st",
     description: "Association Darkangels a été créé en 2007, elle a pour but la réalisation de métrage et de séries web. Elle a déjà à son actif plusieurs créations comme Moko les maîtres de l'équilibre, L'apocalypse est pour bientôt ou bien encore administration mortelle etc."
 }, {
-    name: "Ville de Brest",
+    name: "ville de Brest",
     image: "brest.png",
     meta: "www.brest.fr",
     description: ""
