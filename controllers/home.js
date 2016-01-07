@@ -45,6 +45,32 @@ var associations = [{
     description: ""
 }];
 
+var menu = [{
+    name: "FestiGeek",
+    icon: "help",
+    href: "festigeek"
+}, {
+    name: "Associations",
+    icon: "users",
+    href: "associations"
+}, {
+    name: "Programme",
+    icon: "calendar",
+    href: "programme"
+}, {
+    name: "Accès",
+    icon: "map",
+    href: "acces"
+}, {
+    name: "Ateliers",
+    icon: "smile",
+    href: "ateliers"
+}, {
+    name: "Contact",
+    icon: "user",
+    href: "contact"
+}];
+
 app.controller( "home", ["$scope", "$location", "$anchorScroll", function( $scope, $location, $anchorScroll ) {
     $scope.goToId = function( id ) {
         $location.hash( id );
@@ -52,4 +78,5 @@ app.controller( "home", ["$scope", "$location", "$anchorScroll", function( $scop
     };
 
     $scope.associations = associations;
+    $scope.menu         = menu;
 }]);
