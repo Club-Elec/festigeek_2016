@@ -144,7 +144,38 @@
         <div class="ui grid container">
             <div class="row">
                 <div class="sixteen wide column">
+                    <form name="contact" action="mail.php" method="post" enctype="application/x-www-form-urlencoded" >
+                        <div class="ui form">
+                            <div class="two fields">
+                                <div class="field">
+                                    <label>Prénom</label>
+                                    <input id="contact-firstname" name="contact-firstname" placeholder="Prénom" type="text" required="required" />
+                                </div>
 
+                                <div class="field">
+                                    <label>Nom</label>
+                                    <input id="contact-lastname" name="contact-lastname" placeholder="Nom" type="text" required="required" />
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <label>Votre courriel</label>
+                                <input id="contact-email" name="contact-email" placeholder="Votre courriel" type="email" required="required" />
+                            </div>
+
+                            <div class="field">
+                               <label>Votre message</label>
+                               <textarea id="contact-content" name="contact-content" required="required" rows="4" ></textarea>
+                            </div>
+
+                            <div class="ui success message" >
+                                <div class="header">Envoi réussis</div>
+                                <p>Votre message à bien été envoyé</p>
+                            </div>
+
+                            <button type="submit" class="ui submit primary button">Envoyer</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -200,5 +231,23 @@
 
     $( window ).on( "scroll", function() {
         stickyNav();
+    });
+
+    $( "form[name=contact]" ).on( "submit", function( event ) {
+        $.ajax({
+            url: $( "form[name=contact]" ).attr( "action" ),
+            data: $( "form[name=contact]" ).serialize(),
+            method: $( "form[name=contact]" ).attr( "method" ),
+            beforeSend: function( jqxhr, settings ) {
+                $( "form[name=contact]" ).addClass( "loading" );
+            },
+
+            complete: function( jqxhr, status ) {
+                $( "form[name=contact]" ).addClass( "success" );
+                $( "form[name=contact]" ).removeClass( "loading" );
+            }
+        });
+
+        return false;
     });
 </script>
