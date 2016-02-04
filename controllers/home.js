@@ -22,7 +22,7 @@ var associations = [{
     name: "Yôkai no Karaoke",
     image: "yokai_logo.png",
     meta: "",
-    description: "Association de karaoké musique asiatique et génériques de jeux et de dessins animés, se réunissant deux samedi après midi par mois au PL Guerin. L'association a pour but de permettre aux membres de chanter leurs chansons ou génériques favoris avec d'autres personnes ayant les mêmes passions."
+    description: "Yôkai no Karaoke est une association loi 1901 ayant pour but de permettre à des fans de chanter leurs génériques de dessins animés préférés ou les chansons de leur groupes asiatiques préférés en karaoké. Elle est basée à Brest et les rendez-vous se font au PL Guerin tous les samedis après-midi de 14h à 18h sauf contre ordre."
 }, {
     name: "Les chats cosmiques",
     image: "chatcosmique.png",
