@@ -10,7 +10,8 @@
 }
 
 .masthead.segment.interstellar {
-    background-image: url( ../images/interstellar.rog.png ) !important;
+    /*background-image: url( ../images/interstellar.rog.png ) !important;*/
+    background-image: url( ../images/nyo-archives-dts2-007-1080.jpg ) !important;
     background-size: 100% 100%;
 }
 

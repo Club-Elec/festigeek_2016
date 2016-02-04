@@ -16,6 +16,10 @@ h3{
     font-family: swfont !important;
 }
 
+h3.reduit{
+    font-size: 1.3em !important;
+}
+
 .sf-button{
     background-color: darkslateblue;
     background:
