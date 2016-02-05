@@ -32,12 +32,12 @@ var associations = [{
     name: "ip-Paï ",
     image: "ippai_logoHD_2016.png",
     meta: "http://ippai.free.fr",
-    description: "Notre Atelier ce donne pour but d'encourager ses adhérents, dans  la conception de planches en sens français dans le style Manga. De leur donner accès à la découverte des techniques d'encrage à la plume japonaise. De les conseiller pour le choix des outils de dessin et les gabarits pour les planches. Et bien sur comme toute association de loisirs créatifs, de créer aussi du lien social. C'est avant tout un atelier d'échange pour partager différents avis et faire des suggestions constructives, pour aider tout un chacun à améliorer sans cesse ses créations. Montrez-leur, dite-leur, faite-les faire. Et félicitez-les de leurs efforts, sinon ils passeront tout le samedi après midi à glander en papotant. Telle pourrait-être la maxime de l'Atelier Manga de l'Association Ip-Paï :) !"
+    description: "Notre Atelier se donne pour but d'encourager ses adhérents, dans  la conception de planches en sens français dans le style Manga. De leur donner accès à la découverte des techniques d'encrage à la plume japonaise. De les conseiller pour le choix des outils de dessin et les gabarits pour les planches. Et bien sur comme toute association de loisirs créatifs, de créer aussi du lien social. C'est avant tout un atelier d'échange pour partager différents avis et faire des suggestions constructives, pour aider tout un chacun à améliorer sans cesse ses créations. Montrez-leur, dites-leur, faites-les faire. Et félicitez-les de leurs efforts, sinon ils passeront tout le samedi après midi à glander en papotant. Telle pourrait-être la maxime de l'Atelier Manga de l'Association Ip-Paï :) !"
 }, {
     name: "Pégase",
     image: "pegasus_logofestigeek.png",
     meta: "http://pegase.alsr.fr",
-    description: ""
+    description: "PEGASE est la section Astronomie et Espace de l’Amicale Laïque de Saint-Renan. Nous avons dans l’enceinte du collège de Kerzouar à Saint-Renan un observatoire qui abrite deux télescopes de 350 et 400 mm. Nous avons également du matériel spécialisé pour l’observation du Soleil. Nous organisons une soirée d’observation public un vendredi par mois. En Eté nous sommes ouvert tous les mardis soir de juillet et août. Nous participons également aux Nuits des Etoiles. Nous intervenons dans les écoles, les centres aérés et les colonies de vacances  pour des animations astro ou microfusées. Des membres de la section sont agréés par le CNES pour pratiquer de la microfusée."
 }, {
     name: "guard impact",
     image: "Guard-Impact.png",
@@ -50,9 +50,9 @@ var associations = [{
     description: ""
 }, {
     name: "Karuta",
-    image: "",
-    meta: "",
-    description: ""
+    image: "logo_karuta_france.jpg",
+    meta: "facebook.com/groups/karuta.brest",
+    description: "Le karuta est un jeu de cartes traditionnel japonais basé sur un recueil de poèmes anciens. C’est un jeu qui allie à la fois mémorisation, réflexes et sens tactique. Considéré comme un sport au Japon, il commence à se développer un peu partout en Europe et notamment en France. L’association Karuta Bretagne vous propose des initiations et des démonstrations autour de ce jeu qui ne nécessite aucune connaissance du japonais et s’adresse au plus grand nombre. Vous pouvez également nous retrouver tous les samedis après-midi sur Brest pour des entraînements."
 }, {
     name: "Tonerre de brique",
     image: "",
