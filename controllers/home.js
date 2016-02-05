@@ -45,7 +45,7 @@ var associations = [{
     description: "Guard Impact est une association d’événementiel et d’organisation de tournois de Versus Fighting. Créé en février 2015,  Guard Impact a pour but de promouvoir les jeux vidéo de bagarre autour d’activités hebdomadaires, mensuelles et annuelles. Poussés par la motivation des joueurs de la région, nous avons souhaité officialiser les choses et créer une association afin d’encadrer nos événements. En devenant une association Guard Impact est aujourd’hui à même de proposer aux joueurs bretons un programme varié."
 }, {
     name: "libido",
-    image: "",
+    image: "no-image.png",
     meta: "",
     description: ""
 }, {
@@ -55,22 +55,22 @@ var associations = [{
     description: "Le karuta est un jeu de cartes traditionnel japonais basé sur un recueil de poèmes anciens. C’est un jeu qui allie à la fois mémorisation, réflexes et sens tactique. Considéré comme un sport au Japon, il commence à se développer un peu partout en Europe et notamment en France. L’association Karuta Bretagne vous propose des initiations et des démonstrations autour de ce jeu qui ne nécessite aucune connaissance du japonais et s’adresse au plus grand nombre. Vous pouvez également nous retrouver tous les samedis après-midi sur Brest pour des entraînements."
 }, {
     name: "Tonerre de brique",
-    image: "",
+    image: "no-image.png",
     meta: "",
     description: ""
 }, {
     name: "Laurent (cartes magic)",
-    image: "",
+    image: "no-image.png",
     meta: "",
     description: ""
 }, {
     name: "Arnaud",
-    image: "",
+    image: "no-image.png",
     meta: "",
     description: ""
 }, {
     name: "Sullyvan",
-    image: "",
+    image: "no-image.png",
     meta: "",
     description: ""
 }, {
