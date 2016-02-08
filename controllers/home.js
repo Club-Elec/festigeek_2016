@@ -37,7 +37,7 @@ var associations = [{
     name: "Pégase",
     image: "pegasus_logofestigeek.png",
     meta: "http://pegase.alsr.fr",
-    description: "PEGASE est la section Astronomie et Espace de l’Amicale Laïque de Saint-Renan. Nous avons dans l’enceinte du collège de Kerzouar à Saint-Renan un observatoire qui abrite deux télescopes de 350 et 400 mm. Nous avons également du matériel spécialisé pour l’observation du Soleil. Nous organisons une soirée d’observation public un vendredi par mois. En Eté nous sommes ouvert tous les mardis soir de juillet et août. Nous participons également aux Nuits des Etoiles. Nous intervenons dans les écoles, les centres aérés et les colonies de vacances  pour des animations astro ou microfusées. Des membres de la section sont agréés par le CNES pour pratiquer de la microfusée."
+    description: "PEGASE section Astronomie et Espace de l’Amicale Laïque de Saint-Renan. Nous avons dans l’enceinte du collège de Kerzouar à Saint-Renan un observatoire qui abrite deux télescopes de 350 et 400 mm ainsi que du matériel spécialisé pour l’observation du Soleil. Des soirées d’observation public sont organisées un vendredi par mois. En juillet et août l’observatoire est ouvert tous les mardis soir. En août nous participons aux Nuits des Etoiles. Nous intervenons dans les écoles, les centres aérés et les colonies de vacances  pour des animations astro ou microfusées."
 }, {
     name: "guard impact",
     image: "Guard-Impact.png",
