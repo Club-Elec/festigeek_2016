@@ -22,7 +22,7 @@ var associations = [{
     name: "Yôkai no Karaoke",
     image: "yokai_logo.png",
     meta: "",
-    description: "Association de karaoké musique asiatique et génériques de jeux et de dessins animés, se réunissant deux samedi après midi par mois au PL Guerin. L'association a pour but de permettre aux membres de chanter leurs chansons ou génériques favoris avec d'autres personnes ayant les mêmes passions."
+    description: "Yôkai no Karaoke est une association loi 1901 ayant pour but de permettre à des fans de chanter leurs génériques de dessins animés préférés ou les chansons de leur groupes asiatiques préférés en karaoké. Elle est basée à Brest et les rendez-vous se font au PL Guerin tous les samedis après-midi de 14h à 18h sauf contre ordre."
 }, {
     name: "Les chats cosmiques",
     image: "chatcosmique.png",
@@ -32,12 +32,12 @@ var associations = [{
     name: "ip-Paï ",
     image: "ippai_logoHD_2016.png",
     meta: "http://ippai.free.fr",
-    description: "Notre Atelier ce donne pour but d'encourager ses adhérents, dans  la conception de planches en sens français dans le style Manga. De leur donner accès à la découverte des techniques d'encrage à la plume japonaise. De les conseiller pour le choix des outils de dessin et les gabarits pour les planches. Et bien sur comme toute association de loisirs créatifs, de créer aussi du lien social. C'est avant tout un atelier d'échange pour partager différents avis et faire des suggestions constructives, pour aider tout un chacun à améliorer sans cesse ses créations. Montrez-leur, dite-leur, faite-les faire. Et félicitez-les de leurs efforts, sinon ils passeront tout le samedi après midi à glander en papotant. Telle pourrait-être la maxime de l'Atelier Manga de l'Association Ip-Paï :) !"
+    description: "Notre Atelier se donne pour but d'encourager ses adhérents, dans  la conception de planches en sens français dans le style Manga. De leur donner accès à la découverte des techniques d'encrage à la plume japonaise. De les conseiller pour le choix des outils de dessin et les gabarits pour les planches. Et bien sur comme toute association de loisirs créatifs, de créer aussi du lien social. C'est avant tout un atelier d'échange pour partager différents avis et faire des suggestions constructives, pour aider tout un chacun à améliorer sans cesse ses créations. Montrez-leur, dites-leur, faites-les faire. Et félicitez-les de leurs efforts, sinon ils passeront tout le samedi après midi à glander en papotant. Telle pourrait-être la maxime de l'Atelier Manga de l'Association Ip-Paï :) !"
 }, {
     name: "Pégase",
     image: "pegasus_logofestigeek.png",
     meta: "http://pegase.alsr.fr",
-    description: ""
+    description: "PEGASE section Astronomie et Espace de l’Amicale Laïque de Saint-Renan. Nous avons dans l’enceinte du collège de Kerzouar à Saint-Renan un observatoire qui abrite deux télescopes de 350 et 400 mm ainsi que du matériel spécialisé pour l’observation du Soleil. Des soirées d’observation public sont organisées un vendredi par mois. En juillet et août l’observatoire est ouvert tous les mardis soir. En août nous participons aux Nuits des Etoiles. Nous intervenons dans les écoles, les centres aérés et les colonies de vacances  pour des animations astro ou microfusées."
 }, {
     name: "guard impact",
     image: "Guard-Impact.png",
@@ -45,32 +45,32 @@ var associations = [{
     description: "Guard Impact est une association d’événementiel et d’organisation de tournois de Versus Fighting. Créé en février 2015,  Guard Impact a pour but de promouvoir les jeux vidéo de bagarre autour d’activités hebdomadaires, mensuelles et annuelles. Poussés par la motivation des joueurs de la région, nous avons souhaité officialiser les choses et créer une association afin d’encadrer nos événements. En devenant une association Guard Impact est aujourd’hui à même de proposer aux joueurs bretons un programme varié."
 }, {
     name: "libido",
-    image: "",
+    image: "no-image.png",
     meta: "",
     description: ""
 }, {
     name: "Karuta",
-    image: "",
-    meta: "",
-    description: ""
+    image: "logo_karuta_france.jpg",
+    meta: "facebook.com/groups/karuta.brest",
+    description: "Le karuta est un jeu de cartes traditionnel japonais basé sur un recueil de poèmes anciens. C’est un jeu qui allie à la fois mémorisation, réflexes et sens tactique. Considéré comme un sport au Japon, il commence à se développer un peu partout en Europe et notamment en France. L’association Karuta Bretagne vous propose des initiations et des démonstrations autour de ce jeu qui ne nécessite aucune connaissance du japonais et s’adresse au plus grand nombre. Vous pouvez également nous retrouver tous les samedis après-midi sur Brest pour des entraînements."
 }, {
     name: "Tonerre de brique",
-    image: "",
+    image: "no-image.png",
     meta: "",
     description: ""
 }, {
     name: "Laurent (cartes magic)",
-    image: "",
+    image: "no-image.png",
     meta: "",
     description: ""
 }, {
     name: "Arnaud",
-    image: "",
+    image: "no-image.png",
     meta: "",
     description: ""
 }, {
     name: "Sullyvan",
-    image: "",
+    image: "no-image.png",
     meta: "",
     description: ""
 }, {

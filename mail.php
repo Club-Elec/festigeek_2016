@@ -1,5 +1,6 @@
 <?php
-    $to      = 'thomas.coussot@isen-bretagne.fr';
+    //$to      = 'thomas.coussot@isen-bretagne.fr';
+    $to      = 'thomas.liziard@plguerin.fr';
     $subject = 'Demande d\'information sur festigeek';
     $message = $_POST['contact-content']."\r\n".
                "\r\n".
