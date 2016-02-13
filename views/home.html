@@ -45,12 +45,12 @@
                     <p class="ui justified">C'est bien beau de parler du thème interstellaire, mais à quoi cela correspond ? Voici une petite liste :</p>
 
                     <ul>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                        <li>Star Wars !</li>
+                        <li>Star trek</li>
+                        <li>SF</li>
+                        <li>NASA</li>
+                        <li>Photos spatiales</li>
+                        <li>Et pleins d'autres !</li>
                     </ul>
                 </div>
             </div>
@@ -74,7 +74,7 @@
                         <div class="content">
                             <h3 class="header" >{{ association.name }}</h3>
                             <div class="meta">
-                                <span>{{ association.meta }}</span>
+                                <span><a href="{{ association.meta }}">{{ association.meta }}</a></span>
                             </div>
 
                             <div class="description ui justified" data-ng-bind-html="association.description" ></div>
@@ -95,7 +95,13 @@
             <div class="row">
                 <div class="sixteen wide column">
                     <div class="banner color_white">
-
+                        <section>
+                            <h3 class="reduit">Samedi 27/02 | Dimanche 28/02 - 10h/18h - Festigeek</h3>
+                            <h4>Festival</h4>
+                            <p>
+                                <a data-ng-click="goToId( ateliers )">Ateliers</a>
+                            </p>
+                        </section>
                     </div>
                 </div>
             </div>
@@ -128,8 +134,27 @@
 
         <div class="ui grid container">
             <div class="row">
-                <div class="sixteen wide column">
-
+                <div class="eight wide column">
+                    <ul>
+                        <li> Dessin Manga </li>
+                        <li> Fond vert Star Trek </li>
+                        <li> Jeux vidéos rétro+indé </li>
+                        <li> Versus (jeux de combat) </li>
+                        <li> Jeux de sociétés </li>
+                        <li> Karuta </li>
+                        <li> X-wing (jeu de plateau) </li>
+                    </ul>
+                </div>
+                <div class="eight wide column">
+                    <ul>
+                        <li> Improvisation théatrale </li>
+                        <li> Création lego </li>
+                        <li> Karaoké </li>
+                        <li> Exposition photos spatiales </li>
+                        <li> Diffusion de courts métrages </li>
+                        <li> Oculus Rift </li>
+                        <li> Et bien sur la buvette ;) </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -144,7 +169,7 @@
         <div class="ui grid container">
             <div class="row">
                 <div class="sixteen wide column">
-                    <form name="contact" action="mail.php" method="post" enctype="application/x-www-form-urlencoded" >
+                    <form name="contact" action="mail.php" class="ui form" method="post" enctype="application/x-www-form-urlencoded" >
                         <div class="ui form">
                             <div class="two fields">
                                 <div class="field">
@@ -169,7 +194,7 @@
                             </div>
 
                             <div class="ui success message" >
-                                <div class="header">Envoi réussis</div>
+                                <div class="header">Envoi réussi</div>
                                 <p>Votre message à bien été envoyé</p>
                             </div>
 
@@ -207,9 +232,13 @@
             </div>
 
             <div class="seven wide column">
-                <h4 class="ui inverted header" >Petit mots</h4>
+                <h4 class="ui inverted header" >Petits mots</h4>
 
                 <p>Nous vous souhaitons une agréable visite.</p>
+
+                <h4 class="ui inverted header" >Remerciement</h4>
+
+                <p>Merci à <a href="https://www.artstation.com/artist/nyo">Nyo</a> pour l'image du header.</p>
             </div>
         </div>
     </div>
@@ -261,15 +290,13 @@
     });
 
     $( "form[name=contact]" ).on( "submit", function( event ) {
+        $( "form[name=contact]" ).addClass( "loading" );
         $.ajax({
             url: $( "form[name=contact]" ).attr( "action" ),
             data: $( "form[name=contact]" ).serialize(),
             method: $( "form[name=contact]" ).attr( "method" ),
-            beforeSend: function( jqxhr, settings ) {
-                $( "form[name=contact]" ).addClass( "loading" );
-            },
-
             complete: function( jqxhr, status ) {
+                $( "form[name=contact]" ).get( 0 ).reset();
                 $( "form[name=contact]" ).addClass( "success" );
                 $( "form[name=contact]" ).removeClass( "loading" );
             }

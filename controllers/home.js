@@ -20,7 +20,7 @@ var associations = [{
     description: ""
 }, {
     name: "Yôkai no Karaoke",
-    image: "no-image.png",
+    image: "yokai_logo.png",
     meta: "",
     description: "Association de karaoké musique asiatique et génériques de jeux et de dessins animés, se réunissant deux samedi après midi par mois au PL Guerin. L'association a pour but de permettre aux membres de chanter leurs chansons ou génériques favoris avec d'autres personnes ayant les mêmes passions."
 }, {
@@ -29,15 +29,50 @@ var associations = [{
     meta: "leschatscomsiques.net",
     description: "Association d’amoureux de l’Internet et du numérique, Les Chats Cosmiques constituent une armée irrévérencieuse nourrie aux pokémons, tortues ninjas, licornes, et autres lolcats. Passerelle culturelle, linguistique et transmédia, ses objectifs sont nombreux."
 }, {
-    name: "Assoss' Soja",
-    image: "assoss_soja.gif",
-    meta: "",
-    description: "L'assoss' Soja est une communauté de passionée du Japon en tous genre. Elle organise régulièrement des évènements afin d'exprimer leur émois commun pour le steampunk, cosplay, lolita, roleplay et autres folies vestimentaires."
+    name: "ip-Paï ",
+    image: "ippai_logoHD_2016.png",
+    meta: "http://ippai.free.fr",
+    description: "Notre Atelier ce donne pour but d'encourager ses adhérents, dans  la conception de planches en sens français dans le style Manga. De leur donner accès à la découverte des techniques d'encrage à la plume japonaise. De les conseiller pour le choix des outils de dessin et les gabarits pour les planches. Et bien sur comme toute association de loisirs créatifs, de créer aussi du lien social. C'est avant tout un atelier d'échange pour partager différents avis et faire des suggestions constructives, pour aider tout un chacun à améliorer sans cesse ses créations. Montrez-leur, dite-leur, faite-les faire. Et félicitez-les de leurs efforts, sinon ils passeront tout le samedi après midi à glander en papotant. Telle pourrait-être la maxime de l'Atelier Manga de l'Association Ip-Paï :) !"
 }, {
-    name: "Darkangels",
-    image: "Darkangels.png",
-    meta: "darkangels.asso.st",
-    description: "Association Darkangels a été créé en 2007, elle a pour but la réalisation de métrage et de séries web. Elle a déjà à son actif plusieurs créations comme Moko les maîtres de l'équilibre, L'apocalypse est pour bientôt ou bien encore administration mortelle etc."
+    name: "Pégase",
+    image: "pegasus_logofestigeek.png",
+    meta: "http://pegase.alsr.fr",
+    description: ""
+}, {
+    name: "guard impact",
+    image: "Guard-Impact.png",
+    meta: "http://guardimpact.fr",
+    description: "Guard Impact est une association d’événementiel et d’organisation de tournois de Versus Fighting. Créé en février 2015,  Guard Impact a pour but de promouvoir les jeux vidéo de bagarre autour d’activités hebdomadaires, mensuelles et annuelles. Poussés par la motivation des joueurs de la région, nous avons souhaité officialiser les choses et créer une association afin d’encadrer nos événements. En devenant une association Guard Impact est aujourd’hui à même de proposer aux joueurs bretons un programme varié."
+}, {
+    name: "libido",
+    image: "",
+    meta: "",
+    description: ""
+}, {
+    name: "Karuta",
+    image: "",
+    meta: "",
+    description: ""
+}, {
+    name: "Tonerre de brique",
+    image: "",
+    meta: "",
+    description: ""
+}, {
+    name: "Laurent (cartes magic)",
+    image: "",
+    meta: "",
+    description: ""
+}, {
+    name: "Arnaud",
+    image: "",
+    meta: "",
+    description: ""
+}, {
+    name: "Sullyvan",
+    image: "",
+    meta: "",
+    description: ""
 }, {
     name: "ville de Brest",
     image: "brest.png",
