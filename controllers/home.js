@@ -76,12 +76,17 @@ var associations = [{
 }];
 
 var commerces = [{
-    name: "",
+    name: "Excalibulle",
     image: "no-image.png",
     meta: "",
     description: ""
 }, {
-    name: "",
+    name: "Escale à manga",
+    image: "no-image.png",
+    meta: "",
+    description: ""
+}, {
+    name: "Croc Jeu",
     image: "no-image.png",
     meta: "",
     description: ""
@@ -120,5 +125,6 @@ app.controller( "home", ["$scope", "$location", "$anchorScroll", function( $scop
     };
 
     $scope.associations = associations;
+    $scope.commerces = commerces;
     $scope.menu         = menu;
 }]);

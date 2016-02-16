@@ -59,6 +59,7 @@
 
     <!-- associations -->
     <div id="associations" class="ui vertical stripe segment" >
+
         <div class="ui header container">
             <h3 class="ui header">Les associations</h3>
         </div>
@@ -83,6 +84,32 @@
                 </div>
             </div>
         </div>
+
+        <div class="ui header container">
+            <h3 class="ui header">Les invités</h3>
+        </div>
+
+        <div class="ui grid container">
+            <div class="row">
+                <div class="four wide column" data-ng-repeat="commerce in commerces">
+                    <div class="ui card">
+                        <div class="image">
+                            <img class="ui wireframe image" src="{{ 'ressources/images/' + commerce.image }}" alt="{{ commerce.name }}" />
+                        </div>
+
+                        <div class="content">
+                            <h3 class="header" >{{ commerce.name }}</h3>
+                            <div class="meta">
+                                <span><a href="{{ commerce.meta }}">{{ commerce.meta }}</a></span>
+                            </div>
+
+                            <div class="description ui justified" data-ng-bind-html="commerce.description" ></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <!-- Programme -->
