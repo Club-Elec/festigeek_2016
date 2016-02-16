@@ -54,11 +54,6 @@ var associations = [{
     meta: "facebook.com/groups/karuta.brest",
     description: "Le karuta est un jeu de cartes traditionnel japonais basé sur un recueil de poèmes anciens. C’est un jeu qui allie à la fois mémorisation, réflexes et sens tactique. Considéré comme un sport au Japon, il commence à se développer un peu partout en Europe et notamment en France. L’association Karuta Bretagne vous propose des initiations et des démonstrations autour de ce jeu qui ne nécessite aucune connaissance du japonais et s’adresse au plus grand nombre. Vous pouvez également nous retrouver tous les samedis après-midi sur Brest pour des entraînements."
 }, {
-    name: "Tonerre de brique",
-    image: "no-image.png",
-    meta: "",
-    description: ""
-}, {
     name: "Laurent (cartes magic)",
     image: "no-image.png",
     meta: "",
@@ -77,6 +72,18 @@ var associations = [{
     name: "ville de Brest",
     image: "brest.png",
     meta: "www.brest.fr",
+    description: ""
+}];
+
+var commerces = [{
+    name: "",
+    image: "no-image.png",
+    meta: "",
+    description: ""
+}, {
+    name: "",
+    image: "no-image.png",
+    meta: "",
     description: ""
 }];
 
