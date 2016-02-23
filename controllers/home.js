@@ -55,9 +55,9 @@ var associations = [{
     description: "Le karuta est un jeu de cartes traditionnel japonais basé sur un recueil de poèmes anciens. C’est un jeu qui allie à la fois mémorisation, réflexes et sens tactique. Considéré comme un sport au Japon, il commence à se développer un peu partout en Europe et notamment en France. L’association Karuta Bretagne vous propose des initiations et des démonstrations autour de ce jeu qui ne nécessite aucune connaissance du japonais et s’adresse au plus grand nombre. Vous pouvez également nous retrouver tous les samedis après-midi sur Brest pour des entraînements."
 }, {
     name: "Laurent (cartes magic)",
-    image: "no-image.png",
+    image: "festival_of_trokin.jpg",
     meta: "",
-    description: ""
+    description: "Venez vous initier à l’un des jeux de cartes le plus célèbre au monde : « Magic the gathering » (Magic pour les intimes). Ce jeu, créé par Richard Garfield en 1993, se distingue des jeux de cartes traditionnels par le fait qu'il existe plus de 14 000 cartes différentes avec lesquelles chaque joueur doit construire son jeu (deck), en suivant un certain nombre de règles. Elaborez une stratégie, rassemblez de redoutables créatures et amenez les points de vie de votre adversaire à 0. Des jeux d’initiations et des cartes gratuites seront à disposition pour celles et ceux qui voudront tenter l’expérience de ce jeu terriblement addictif."
 }, {
     name: "Arnaud",
     image: "no-image.png",
@@ -68,27 +68,27 @@ var associations = [{
     image: "no-image.png",
     meta: "",
     description: ""
-}, {
-    name: "ville de Brest",
-    image: "brest.png",
-    meta: "www.brest.fr",
-    description: ""
 }];
 
 var commerces = [{
     name: "Excalibulle",
-    image: "no-image.png",
+    image: "excallibulle.jpg",
     meta: "",
     description: ""
 }, {
     name: "Escale à manga",
-    image: "no-image.png",
+    image: "escale_a_manga.jpg",
     meta: "",
     description: ""
 }, {
-    name: "Croc Jeu",
-    image: "no-image.png",
+    name: "Croc Jeux",
+    image: "croc_jeux.png",
     meta: "",
+    description: ""
+}, {
+    name: "ville de Brest",
+    image: "brest.png",
+    meta: "www.brest.fr",
     description: ""
 }];
 
