@@ -16,8 +16,8 @@ var associations = [{
 }, {
     name: "Les conteurs du ponant",
     image: "les_conteurs_du_ponant.png",
-    meta: "",
-    description: ""
+    meta: "http://conteursduponant.org/",
+    description: "Depuis 2006, les Conteurs du Ponant font vivre le jeu de rôle sur la place brestoise. Confortablement installés à la MPT du Valy-Hir chaque samedi soir à partir de 18h30, et même parfois le dimanche, ils massacrent démons et anges, vampires et loups-garous, humains et twi'leks, nains et elfes, et même quelques Dieux. Ou les incarnent. Parfois les deux à la fois. De temps en temps, ils pratiquent aussi des jeux de plateau, de Zéro à Eclipse en passant par Caverna, le Trône de Fer ou Race for the Galaxy. On les retrouve un peu partout en convention, promenant leurs tasses publicitaires chargées de café chaud, toujours en quête d'un jeu de plus pour les prochaines RLB."
 }, {
     name: "Yôkai no Karaoke",
     image: "yokai_logo.png",
