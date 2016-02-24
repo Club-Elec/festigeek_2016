@@ -81,11 +81,6 @@ var commerces = [{
     meta: "",
     description: ""
 }, {
-    name: "Croc Jeux",
-    image: "croc_jeux.png",
-    meta: "",
-    description: ""
-}, {
     name: "ville de Brest",
     image: "brest.png",
     meta: "www.brest.fr",
