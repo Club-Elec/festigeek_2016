@@ -31,6 +31,6 @@ app.config(["$routeProvider", function( $routeProvider ) {
 
     // default routing
     $routeProvider.otherwise({
-        redirectTo: "/404"
+        redirectTo: "/"
     });
 }]);
